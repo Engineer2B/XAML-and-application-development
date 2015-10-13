@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Example_4_3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Example_4_3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Exercise.Data"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <data:DataSource />
+    </Page.DataContext>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView x:Name="ValuesListView" ItemsSource="{Binding Values}" />
+        <TextBlock HorizontalAlignment="Right" Text="{Binding SelectedItem, ElementName=ValuesListView}" />
+    </Grid>
+</Page>

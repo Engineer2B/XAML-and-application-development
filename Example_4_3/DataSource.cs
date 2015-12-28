@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Exercise.Data
+namespace Example_4_3
 {
-    public class DataSource
-    {
-        public DataSource()
+        public class DataSource
         {
-            this.Values = new List<string> {
+            public DataSource()
+            {
+                this.Values = new List<string> {
                 "Mike", "November", "Oscar", "Papa", "Quebec",
                 "Romeo", "Sierra", "Tango", "Uniform", "Victor"
             };
+            }
+            public List<string> Values { get; set; }
         }
-        public List<string> Values { get; set; }
-    }
 }

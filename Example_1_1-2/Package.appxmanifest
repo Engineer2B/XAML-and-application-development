@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="70fb9dfb-f261-4eff-a567-09510d77eb6e"
-    Publisher="CN=Boris"
+    Name="f30476b5-cfe6-4de4-b34b-97482b170c0d"
+    Publisher="CN=Boris Breuer"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="70fb9dfb-f261-4eff-a567-09510d77eb6e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="f30476b5-cfe6-4de4-b34b-97482b170c0d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Example_1_1-2</DisplayName>
-    <PublisherDisplayName>Boris</PublisherDisplayName>
+    <PublisherDisplayName>Boris Breuer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

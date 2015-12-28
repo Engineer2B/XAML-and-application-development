@@ -26,10 +26,5 @@ namespace Example_1_1_2
         {
             this.InitializeComponent();
         }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

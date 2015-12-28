@@ -5,10 +5,9 @@
     xmlns:local="using:Example_4_3"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:data="using:Exercise.Data"
     mc:Ignorable="d">
     <Page.DataContext>
-        <data:DataSource />
+        <local:DataSource/>
     </Page.DataContext>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <ListView x:Name="ValuesListView" ItemsSource="{Binding Values}" />

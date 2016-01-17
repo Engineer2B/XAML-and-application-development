@@ -12,11 +12,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using System.Threading.Tasks;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace Example_5_2
+namespace Adv_1_Hands_On_3
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,16 +25,6 @@ namespace Example_5_2
         public MainPage()
         {
             this.InitializeComponent();
-            LoadData();
-        }
-
-        async void LoadData()
-        {
-            this.SetValue(LoadingProperties.IsLoadingProperty, true);
-
-            await Task.Delay(5000);
-
-            this.SetValue(LoadingProperties.IsLoadingProperty, false);
         }
     }
 }

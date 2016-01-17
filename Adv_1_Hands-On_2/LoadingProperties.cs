@@ -1,11 +1,15 @@
 ﻿using Windows.UI.Xaml;
 
-namespace Example_5_2
+namespace Adv_1_Hands_On_2
 {
     public class LoadingProperties : DependencyObject
     {
-        public static readonly DependencyProperty IsLoadingProperty = DependencyProperty.RegisterAttached(
-            "IsLoading", typeof(bool), typeof(LoadingProperties), new PropertyMetadata(true)
+        public static readonly DependencyProperty IsLoadingProperty =
+            DependencyProperty.RegisterAttached(
+            "IsLoading",
+            typeof(bool),
+            typeof(LoadingProperties),
+            new PropertyMetadata(true)
             );
 
         public static void SetIsLoading(UIElement element, bool value)

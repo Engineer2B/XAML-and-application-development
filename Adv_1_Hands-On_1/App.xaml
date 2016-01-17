@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="Example_5_1.App"
+    x:Class="Adv_1_Hands_On_1.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Example_5_1"
+    xmlns:local="using:Adv_1_Hands_On_1"
     RequestedTheme="Light">
 
 </Application>

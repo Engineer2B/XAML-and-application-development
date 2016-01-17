@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace Example_5_2
+namespace Adv_1_Hands_On_1
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
